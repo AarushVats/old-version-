@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+/* background-color: #232f3e; */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bk {
+
+    background: #40E0D0;
+
+    background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);
+
+    background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);
+
+}
+
+.nav-item {
+    font-size: 20px;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0px 20px;
+    list-style: none;
+}
+
+.account li {
+    margin: 0 10px;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+
+}
+
+.foot-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.policy {
+    display: flex;
+    flex-direction: column;
+}
+
+.policy a {
+    text-decoration: none;
+    font-size: 20px;
+    color: antiquewhite;
+}
+
+.details {
+    color: antiquewhite;
+}
+
+.query a i {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+}
+
+/* About us Css */
+
+.AboutUs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.AboutUs p {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 540px) {
+   .foot-container{
+    
+    flex-direction: column;
+    
+   }
+  }
