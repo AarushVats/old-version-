@@ -72,6 +72,8 @@ footer{
 }
 @media screen and (max-width: 540px) {
    .foot-container{
+       display: flex;
     flex-direction: column;
+       justify-content: space-around;
    }
 }
